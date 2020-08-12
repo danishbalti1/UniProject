@@ -1,0 +1,21 @@
+html{
+    background: black;
+}
+.main{
+    background-color: white;
+}
+header {
+    height: 80px;
+    background: black;
+}
+.container{
+    margin:2rem 3rem;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+}
+video{
+    border-radius: 0.5rem;
+    margin:1.4rem;
+    outline:none;
+}

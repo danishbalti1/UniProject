@@ -1,0 +1,22 @@
+body {
+    line-height: 1.5;
+    color: white;
+    background: url("../mosaic.png")
+}
+h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+.cont {
+    max-width: 800px;
+    margin: 0 auto;
+}
+p {
+    margin-bottom: 15px;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}

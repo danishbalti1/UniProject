@@ -1,0 +1,28 @@
+html{
+    background: black;
+}
+header {
+    height: 80px;
+    background: black;
+}
+h1{
+    color:white;
+    text-align: center;
+    margin:1rem 2rem 2rem 2.5rem;
+    font-weight: lighter;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    border-bottom: 3px white;
+}
+.container {
+    margin:1rem 2rem 2rem 2.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+.container img{
+    border-radius: 1rem;
+    line-height: 1.3;
+}
+

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: Ubuntu, Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../Images/davisco-5E5N49RWtbA-unsplash.jpg");
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    padding: 8px 10px;
+}
+ul {
+    list-style-type:none;
+
+}
+header ul{
+    float: right;
+    margin-top: 20px;
+}
+
+header ul li{
+    display : inline-block;   
+}
+
+ul li a{
+    text-decoration:none;
+    color:#fff;
+    padding:5px 20px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    transition:0.6 ease;
+    border-radius: 2rem;
+}
+ul li a:hover{
+    background-color:#00b894;
+    color:white;
+}
+ul li.active a{
+    background-color:#00b894;
+    color:white;
+}
+
+
+
+.logo {
+    float: left;
+    padding:5px 10px;
+    width:50px;
+    height:auto;
+    color:white;
+    text-shadow:1px 1px 2px black;    
+}
+.logo img{
+    width:26vh;
+}
+.main{
+    max-width:1800px;
+    margin:auto;
+}
+.title{
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform:translate(-50%, -60%);
+}
+.title h1{
+
+    color:#00b894;
+    font-size:50px;    
+}
+.button{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    height: 120vh;
+    display: flex;
+}
+.button a{
+    padding:12px 30px;
+    margin:25px 5px;
+    border-radius:4px;
+    outline:none;
+    font-size:15px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing:1px ;
+    transition:all .5s ease;
+}
+.btnone{
+    background: #fff;
+    color:#000;
+}
+.btnone:hover{
+    color:white;
+    background-color: #00b894;
+}
+.btntwo{
+    background: #00b894;
+    color:white;
+}
+.btntwo:hover{
+    color:black;
+    background-color: #fff;
+}
+.footer{
+    background:#303036;
+    color:white;
+    height:300px;
+    position: relative;
+}
+
+.footer .footer-content{
+    border: 1px solid #303036;
+    display:flex;
+}
+.footer .footer-content >  div{
+    flex: 1px;
+    padding: 25px;
+    color:white;
+    ;
+    border-bottom:none;
+}
+
+.footer .footer-content h1,
+.footer .footer-content h2{
+    color: white;
+
+}
+.about h1 span{
+    color:#05f7ff;
+    
+}
+
+ .contact span{
+
+    display:block;
+    font-size:1.1;
+    margin-bottom:8px;
+}
+.socials-media a{
+    border:1px solid Gray;
+    width:45px;
+    color:white;
+    height:41px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    margin-right:5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+.socials-media a:hover{
+    border:1px solid white;
+    color:white;
+    transition:all 0.3s ease;
+}
+
+.footer ul{
+    float: left;
+    line-height: 1.8
+}
+a {
+    color: inherit
+}
+.footer .footer-bottom{
+    background:#303036;
+    color:white;
+    height:50px;
+    width:600px;
+    text-align:center;
+    position:absolute;
+    bottom:0px;
+    left: 360px;
+    padding-top:20px;
+    
+}
+
+textarea{
+    padding:4px;
+    display:block;
+}
+
+.footer form > * {
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    width: 250px;
+    border-radius: 3px;
+    border: 4px solid skyblue;
+
+}
